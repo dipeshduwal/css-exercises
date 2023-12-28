@@ -25,3 +25,20 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+.header{
+  display: flex;
+  gap: 10px;
+  color: bisque;
+  padding: 8px;
+  position: relative;
+
+}
+
+.left-links{
+  font-size: medium;
+  font-weight: 600;
+  display: flex;
+  padding: 16px;
+  text-align: center;
+}

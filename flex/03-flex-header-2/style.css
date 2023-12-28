@@ -31,10 +31,11 @@ body {
 
 button {
   border: none;
-  border-radius: 8px;
+  border-radius: 4px;
   background: rebeccapurple;
   color: white;
-  padding: 8px 24px;
+  padding: 4px 8px;
+
 }
 
 a {
@@ -43,6 +44,27 @@ a {
   color: rebeccapurple;
 }
 
-ul {
+.links {
   list-style-type: none;
+  display: flex;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  gap: 18px;
 }
+
+.header{
+  padding: 8px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+
+}
+
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
