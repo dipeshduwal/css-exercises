@@ -44,7 +44,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 16px;
   flex-direction: column;
 }
 
@@ -54,8 +54,6 @@ a{
 }
 
 .left-links, .right-links{
-  font-size: medium;
-  font-weight: 600;
   display: flex;
   margin: 0;
   padding: 0;
