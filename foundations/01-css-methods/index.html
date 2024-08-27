@@ -31,11 +31,13 @@
   }
   console.log(multiply(5, 5));
 
-  function capitalize("string"){
-    return 
-
+  function capitalize(lowercase, uppercase, both){
+  const capitalLower = lowercase.charAt(0).toUpperCase()+lowercase.slice(1).toLowerCase();
+  const capitalUpper = uppercase.charAt(0).toUpperCase()+uppercase.slice(1).toLowerCase();
+  const capitalBoth = both.charAt(0).toUpperCase()+both.slice(1).toLowerCase();
+  console.log(capitalLower, capitalUpper, capitalBoth);
   }
-  console.log(capitalize(vitamins));
+  capitalize("hello","HELLO","hELlo");
 
   </script>
 </html>
